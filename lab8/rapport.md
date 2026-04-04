@@ -90,7 +90,7 @@ date: \today
 
 ![man kill](images/man_kill.png)
 
-Аналогично изучаем `man df`, `man du`, `man find` (на экране — пример для `df`):
+Аналогично изучаем  `man du`, `man find` (на экране — пример для `df`):
 
 ![man df](images/man_df.png)
 
@@ -116,9 +116,6 @@ date: \today
 
 ![top](images/top.png)
 
-`htop` (если установлен) предоставляет более удобный интерфейс:
-
-![htop](images/htop.png)
 
 # 4. Выводы
 
