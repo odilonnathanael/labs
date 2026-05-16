@@ -1,4 +1,3 @@
-cat > rapport.md << 'EOF'
 ---
 title: "Лабораторная работа №14: Программирование в командном процессоре ОС UNIX. Продвинутое использование"
 author: "LISSOM BAYEM ODILLON NATHANAEL"
@@ -77,4 +76,3 @@ Bash optimisé pour l'automatisation système, mais limité pour les calculs com
 # Список литературы
 
 1. `man bash`, `man seq`, `man zcat`.
-EOF
