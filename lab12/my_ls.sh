@@ -1,7 +1,7 @@
 #!/bin/bash
-# Affiche le contenu d'un répertoire avec les droits
-dir="${1:-.}"
-for file in "$dir"/*; do
+# Выводит содержимое каталога с правами доступа
+target_dir="${1:-.}"
+for file in "$target_dir"/*; do
     if [ -e "$file" ]; then
         perms=""
         [ -d "$file" ] && perms="${perms}d" || perms="${perms}-"

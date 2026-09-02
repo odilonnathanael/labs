@@ -1,8 +1,7 @@
 ---
 title: "Лабораторная работа №12: Программирование в командном процессоре bash"
 author: "LISSOM BAYEM ODILLON NATHANAEL"
-date: \today
----
+date: \---
 
 # 1. Цель работы
 

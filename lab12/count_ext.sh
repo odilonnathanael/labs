@@ -1,10 +1,10 @@
 #!/bin/bash
-# Compte les fichiers d'une extension donnée dans un répertoire
-ext="$1"
-dir="${2:-.}"
-if [ -z "$ext" ]; then
-    echo "Usage: $0 <extension> [répertoire]"
+# Подсчитывает количество файлов с заданным расширением в каталоге
+if [ $# -lt 1 ]; then
+    echo "Использование: $0 <расширение> [каталог]"
     exit 1
 fi
-count=$(find "$dir" -maxdepth 1 -type f -name "*.$ext" | wc -l)
-echo "Nombre de fichiers avec l'extension .$ext dans $dir : $count"
+ext="$1"
+dir="${2:-.}"
+count=$(find "$dir" -maxdepth 1 -type f -name "*.$ext" 2>/dev/null | wc -l)
+echo "Количество файлов с расширением .$ext в $dir: $count"
